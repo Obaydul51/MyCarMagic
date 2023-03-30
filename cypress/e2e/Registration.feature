@@ -14,4 +14,9 @@ Scenario: User registration by happy path
       And user checked the checkbox
       And user click on the Create Account button
       Then user will navigate to the verify page
+Scenario: Verify the user name
+    When user input one part name
+    Then sytem should be displayed an alert message.
+
+    
 
